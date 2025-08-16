@@ -22,6 +22,7 @@ interface ProjectItemProps {
 }
 
 const ProjectItem: FC<ProjectItemProps> = ({ project }) => {
+
   return (
     <Dialog>
       <DialogTrigger asChild>
@@ -45,7 +46,11 @@ const ProjectItem: FC<ProjectItemProps> = ({ project }) => {
               <InfoItem icon={Calendar} label="published">
                 <p className="font-semibold">
                   {project.publishedAt
-                    ? new Date(project.publishedAt).toISOString()
+                    ? new Date(project.publishedAt).toLocaleDateString("ar-DZ", {
+                      day: "numeric",
+                      month: "long",
+                      year: "numeric",
+                    })
                     : "7/7/2025"}
                 </p>
               </InfoItem>

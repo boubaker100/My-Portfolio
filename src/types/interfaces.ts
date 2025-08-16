@@ -29,7 +29,7 @@ export interface Project {
     images: Image[]; // Assuming images is an array of image objects
     demolink: string;
     githubLink: string;
-    publishedAt: Date;
+    publishedAt: string;
     isResponsive: boolean;
     tags: any[];
 
