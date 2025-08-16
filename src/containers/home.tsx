@@ -32,14 +32,14 @@ const HomeSection = () => {
             {/* Presentation */}
             <div className="flex md:col-span-6 flex-col gap-y-4 items-center justify-between md:items-start  ">
                 <h2 className=' text-3xl md:text-5xl text-foreground  font-bold' >
-                    Hi, I'm Boubaker Boudina
+                   {` Hi, I'm Boubaker Boudina`}
                 </h2>
                 <h5 className='text-xl md:text-2xl font-semibold'>
                     Full Stack Developer
                 </h5>
                 <p className='leading-7 md:*:text-lg  md:text-lg md:max-w-[85%] text-center md:text-start'>
-                    I am a passionate developer with experience in building web applications using modern technologies.
-                </p>
+{`                    I am a passionate developer with experience in building web applications using modern technologies.
+`}                </p>
                 <div className='flex items-center gap-x-4 py-4
                 '>
                     <a href='#projects' className={buttonVariants({ size: 'lg' })}>

@@ -18,7 +18,7 @@ const Carousel: FC<CarouselProps> = ({ images }) => {
     return (
         <div className="space-y-2">
             <Image
-                src={urlForImage(images[0], { width: 1200, quality: 100 })}
+                src={currentImage}
                 width={1200}
                 height={800}
                 alt="big"

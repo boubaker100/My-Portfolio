@@ -16,7 +16,7 @@ const AboutSection = () => {
                 <SectionTittle title='about me' description='a quick introduction about me'
                     className='items-start' />
                 <p className='text-lg mt-5 mb-5' >
-                    Hello! I'm Boubaker Boudina, a passionate web developer with a focus on creating dynamic and responsive web applications. I have a strong foundation in both front-end and back-end technologies, allowing me to build complete solutions that meet user needs. My goal is to deliver high-quality code and exceptional user experiences.
+                   {` Hello! I'm Boubaker Boudina, a passionate web developer with a focus on creating dynamic and responsive web applications. I have a strong foundation in both front-end and back-end technologies, allowing me to build complete solutions that meet user needs. My goal is to deliver high-quality code and exceptional user experiences.`}
                 </p>
                 <div className='grid grid-cols-2 md:grid-cols-3 gap-4 items-end mt-3'>
                     {statistics.map((statistic, index) => (

@@ -1,4 +1,4 @@
-import { LinkIcon, LucideIcon } from 'lucide-react';
+import { LinkIcon } from 'lucide-react';
 import { Github, Linkedin } from 'lucide-react';
 import { SocialLink } from './../types/interfaces';
 export const SocialLinks: SocialLink[] = [
