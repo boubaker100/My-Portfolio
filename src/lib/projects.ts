@@ -16,5 +16,5 @@ export function getProjects() {
 
     // const query = `*[_type == "skills"]{
     const data = client.fetch(query)
-    return data as Project[];
+    return data as unknown as Project[];
 }       
