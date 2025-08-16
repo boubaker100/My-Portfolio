@@ -19,18 +19,13 @@ export interface Skill {
     value: number;
     category: SkillCategory;
 }
-interface MyImage {
-  _id: string;
-  url: string;
-  alt?: string;
-}
 
 export interface Project {
    
     _id: string;
     title: string;
     description: string;
-    images: MyImage[]; // Assuming images is an array of image objects
+    images: any[]; // Assuming images is an array of image objects
     demolink: string;
     githubLink: string;
     publishedAt: Date;
