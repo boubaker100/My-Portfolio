@@ -1,4 +1,5 @@
 import { LucideIcon } from "lucide-react";
+import { Image, Image as SanityImage } from "sanity";
 
 export interface SocialLink {
     href: string;
@@ -25,7 +26,7 @@ export interface Project {
     _id: string;
     title: string;
     description: string;
-    images: any[]; // Assuming images is an array of image objects
+    images: Image[]; // Assuming images is an array of image objects
     demolink: string;
     githubLink: string;
     publishedAt: Date;
