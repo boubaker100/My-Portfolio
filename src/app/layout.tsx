@@ -41,7 +41,7 @@ export default function RootLayout({
           <Navbar />
           <Mobilenav />
         
-           <main className="flex-1">
+           <main className="flex-1 overflow-x-hidden">
             {children}
           </main>
           <Footer />
