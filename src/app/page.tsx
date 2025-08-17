@@ -7,14 +7,12 @@ import SkillsSection from "@/containers/skills";
 export default function Home() {
 
     return (
-        <div className="mx-8  space-y-16 py-28">
-       
+        <div className="mt-20 mx-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <HomeSection />
             <AboutSection />
             <SkillsSection />
             <ProjectsSection />
             <ContactSection />
-
         </div>
     )
 

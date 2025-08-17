@@ -9,11 +9,11 @@ interface SkillsContainerProps {
 
 const SkillsContainer: FC<SkillsContainerProps> = ({ data, label }) => {
   return (
-    <article className="min-h-[25rem] border border-primary rounded-lg">
-      <h2 className="capitalize text-primary text-2xl font-semibold py-4 px-6 border-b border-primary">
+    <article className="w-full border border-primary rounded-lg">
+      <h2 className="w-full">
         {label}
       </h2>
-      <div className="px-6 py-4 space-y-6">
+      <div className="px-12 py-6 space-y-6 w-full">
         {data.map((item) => (
           <SkillItem key={item._id} item={item} />
         ))}
