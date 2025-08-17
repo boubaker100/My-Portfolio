@@ -8,7 +8,7 @@ import React from 'react'
 
 const HomeSection = () => {
     return (
-        <section id="home" className="mt-30 sm:grid grid md:grid-cols-12 gap-6 items-center sm:mx-3 ">
+        <section id="home" className="mt-30 grid md:grid-cols-12 gap-6 items-center sm:mx-3 ">
             {/* Social Links */}
             <ul className='flex items-center md:flex-col size-fit mx-auto py-2
             md:py-8 px-8 md:px-2  gap-4 border rounded-3xl'>
