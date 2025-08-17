@@ -8,7 +8,7 @@ import React from 'react'
 
 const HomeSection = () => {
     return (
-        <section id="home" className="grid md:grid-cols-12 gap-6 items-center">
+        <section id="home" className="mt-30 sm:grid grid md:grid-cols-12 gap-6 items-center sm:mx-3 ">
             {/* Social Links */}
             <ul className='flex items-center md:flex-col size-fit mx-auto py-2
             md:py-8 px-8 md:px-2  gap-4 border rounded-3xl'>
@@ -65,7 +65,7 @@ const HomeSection = () => {
 
                 </div>
             </div>
-            <div className='md:col-span-4 grid place-content-center mt-10 md:mt-10'>
+            <div className='md:col-span-4  grid place-content-center  mt-10 md:mt-10'>
                 <div className='relative flex items-center justify-center size-96 md:size-96'>
                     <Effect className='size-full' />
                     <Effect variant="square" size="sm" className='top-[8%] left-[15%] rotate-12'

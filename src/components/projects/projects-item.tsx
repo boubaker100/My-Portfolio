@@ -50,7 +50,8 @@ const ProjectItem: FC<ProjectItemProps> = ({ project }) => {
                       day: "numeric",
                       month: "long",
                       year: "numeric",
-                    })
+                     } )
+
                     : "7/7/2025"}
                 </p>
               </InfoItem>
